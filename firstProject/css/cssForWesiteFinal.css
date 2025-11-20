@@ -1,0 +1,660 @@
+/*WEBSITE CSS*/
+
+/*HOME PAGE:*/
+
+/*NAVBAR_*/
+
+.navbar {
+	background-color:#247D7F;
+	display:flex;/*flex helps to display content without using float*/
+	list-style-type:none;/*gets rid of the list display*/
+	border: 2px solid white;/*creates a border with thickness of 2px, solid and colour white*/
+	
+	
+}
+.navbar li{
+	float:left;
+	
+}
+
+nav a {
+	display:block;
+	color:white;
+	padding:10px 14px;/*top right */
+	text-decoration:none;/*gets rid of the underlines on links*/
+	
+}
+nav a:hover{
+	background-color:#B2D9C4;
+	border-radius:4px;/*makes outside of the border rounder*/
+}
+nav input[type=text]{/*"input[type=text]" is the searching bar*/
+	background-color:#B2D9C4;
+	float:left;
+	width:300px;
+	padding:4px;
+	border:2px solid white;/*creates a border with thickness of 2px, solid and colour white*/
+	border-radius:10px;/*makes outside of the border rounder*/
+	margin-top:8px;
+	margin-bottom:8px;
+	
+}
+/*-----------------------------*/
+
+/*sidebar -on phone mode appears-_*/
+.sidebar{
+	list-style-type:none;/*gets rid of the list display*/
+	position:fixed;
+	top:0;
+	right:0;
+	height:100vh;/*full screen height*/
+	z-index:999;
+    width:250px;
+	background-color:#247D7F;
+	display:none;
+	flex-direction:column;/*items will stack vertically instead of horizontally*/
+	align-items:flex-start;/*controls vertical alignment in a flex container*/
+	justify-content:flex-start;/*controls horizontal alignment in a flex container*/
+	padding: 20px 0; /* Add padding */
+}
+.sidebar li{
+	width:100%;
+	margin: 0;
+    padding: 0;
+}
+.sidebar a{
+	width:100%;
+	display: block;
+    padding: 15px 20px;
+}
+.menu-button{
+	display:none;
+}
+/*-----------------------------*/
+
+/*logo on navbar_*/
+.navbar {
+    display: flex;/*flex helps to display content without using float*/
+    align-items: center;/*puts items in center*/
+    padding: 0 20px; 
+}
+
+.navLogo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navLogo img {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+/*-----------------------------*/
+
+/*BACKGROUND_*/
+body.edaPages{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("background1.jpg");/*rgba's makes background to look darker*/
+	background-repeat: no-repeat;/*so that the background doesnt repeat itself as an img*/
+	background-size: cover;/*covers the whole page*/
+	background-attachment: fixed;/*when you scroll down background stays at the same position*/
+}
+
+/*HEADING_*/
+
+.homePageH{
+	color:#247D7F;
+	margin: 80px 30px 30px 30px;/*top right bottom left*/
+	font-size: 70px;
+	text-align: center;/*text gets displayed in center*/
+}
+
+span{
+	color:#247D7F;
+	margin: 30px; /*30px 30px 30px 30px*/
+	font-size:50px;/*adjusts the font size*/
+	display: block;/*just gets the element not the whole row*/
+}
+
+/*EXPLORE BUTTON_*/
+
+#exploreButton{
+	margin: 40px auto 30px auto;/*makes right and left margin auto which helps it to center the content.*/
+	text-align: center;
+	display: block;
+	text-decoration:none;/*line under the link disapears*/
+	color:white;
+	background-color:black;
+	border-radius: 5px;
+	border:1px solid black;
+	padding: 14px 25px;
+	width: fit-content;/*fits the content in a box. ex, border would be just around the element, not whole row*/
+}
+
+#exploreButton:hover{/*when you hover on the link with the mouse, it uses the css below.*/
+	background-color:#80B9C8;
+
+}
+/*ABOUT PAGE:*/
+
+/*group of images 1_*/
+.imgAndContentRow {
+    margin: 50px auto 50px auto;/*so it will leave space between with the second "imgAndContentRow"*/
+	
+}
+
+.imgRow{
+	display: flex;
+}
+
+.imgItem{
+	margin-right:20px;
+	width: 300px;/*setting width same as imgInAbout, the text will align vertically with the img.*/
+}
+
+.imgInAbout {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.aboutImgP { 
+	margin:0;
+	color:white;
+}
+
+/*-----------------------------*/
+
+/*group of content 1_*/
+.imgAndContentRow{
+	align-items:flex-start;/*aligns items to the top*/
+	display: flex;/*every element will stacked in a horizontal row*/
+    justify-content: space-between;/*it puts space between image and content row*/
+}
+
+.content {
+	text-align: center;
+	margin-left: 5%;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);/*puts a shadow like a box on the background*/
+}
+
+.aboutPageH1{
+	color:#247D7F;
+}
+
+.aboutPageP{
+	color:white;
+	text-align:left;/*texts goes to left*/
+}
+/*-----------------------------*/
+
+/*group of images 1_*/
+.imgAndContentRow2 {
+    min-width: 300px;
+    display: flex;
+	justify-content: flex-end;/*items will align to the bottom of the container*/
+}
+
+.imgsRow2{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	
+}
+
+.top-images {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: flex-end;/*items will align to the bottom of the container*/
+	width: 100%;
+	justify-content:space-between
+}
+    
+.imgItem2 {
+	text-align: center;
+	;
+}
+
+.imgInAbout2 {
+	width: 100%;
+    height: 100px;
+	object-fit: cover;/*image will fill the entire container while in its usual ratio*/
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);/*puts a shadow like a box on the background*/
+}
+
+.aboutImgP2 {
+	margin: 15px 0 0 0;
+	color: white;
+}
+
+.imgItem3 {
+	text-align: center;
+	width: 100%;
+}
+
+.imgInAbout3 {
+	width: 100%;
+    height: 200px;
+	object-fit: cover;/*image will fill the entire container while in its usual ratio*/
+	border-radius: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	display: block;
+}
+/*-----------------------------*/
+
+/*group of content 2_*/
+.content2 {
+	margin-right: 10%;
+	width: 45%;
+	float: left;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.aboutPageH2{
+	color:#247D7F;
+}
+
+.aboutPageP2{
+	color:white;
+	text-align:left;
+}
+
+/*-----------------------------*/
+/*--MENOMI--*/
+/* Threats and what we can do pages*/
+
+body.MG_Pages {
+	background-color:#80B9C8;
+	/*google font common to all text*/
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/*HEADINGS*/
+/*class for headings to use google fonts*/
+.stack-sans-notch-MG{
+  font-family: "Stack Sans Notch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align:center;
+}
+
+/*THREATS PAGE*/
+
+/*CARDS IN SECTION I*/
+/*add border around the paragraphs*/
+.box{
+	border:2px solid black;
+	text-align:center;
+	padding:5px;
+	background-color:white;
+
+}
+/*adds space at the bottom*/
+.col-sm-4{
+	margin-bottom:15px;
+}
+
+/*PARAGRAPHS IN SECTION II */
+.paragraphs_MG{
+	margin:20px;
+	text-align:justify;
+}
+.mobile_MG{
+	display:none;
+}
+
+/*--- WHAT WE CAN DO page ---*/
+
+/*side menu in the right side of page*/
+.menu_MG{
+	border:2px solid white;
+	margin:20px;	
+	padding:15px;
+	text-align:center;
+	float:right;
+}
+.menu_MG li{
+	list-style-type:none;
+	margin:10px;
+	padding:20px;
+		
+}
+.menu_MG ul li a{
+	text-decoration:none;
+	color:black;
+}
+.menu_MG a:hover{
+	color:#f0f0f0;
+}
+/*-- images that align left --*/
+.campaign1_MG{
+	float:left;
+	padding:10px;
+	margin:20px;
+}
+/* -- images that align right --*/
+.campaign2_MG{
+	float:right;
+	padding:10px;
+	margin:20px;
+}
+.campaignp_MG{
+	text-align:justify;
+	margin:10px;
+}
+
+/* -- Styling for form -- */
+.input_MG{
+	margin-top:10px;
+}
+.submit_MG{
+	display:flex;
+	justify-content:center;
+	margin-bottom:20px;
+}
+
+/*FOOTER*/
+.footer{
+	background-color:#247D7F;
+	display: flex;
+	justify-content: center; /* centers the links horizontally */
+	align-items: center;
+	text-align:center;
+	border: 2px solid white;
+}
+.footer li{
+	float:left;
+	list-style-type:none;
+	
+}
+
+.footer ul li a {
+	display:block;
+	color:white;
+	padding:10px 14px;
+	text-decoration:none;
+	
+}
+
+
+/*-----------------------------*/
+/*MEDIA TAGS FOR WEBSITES*/
+/*for phones*/
+@media only screen and (max-width:600px){
+	/*NAVBAR_*/
+	
+	.hideOnMobile{
+		display:none;
+	}
+	.menu-button{
+		display:block;
+	}
+	.navlogo{
+		height: 40px;      /* make logo small and aligned */
+		width: auto;
+	}
+
+	.searchBar{
+		flex: 0 0 220px;   /* makes search bar smaller */
+		padding: 4px 4px;
+		height:25px;
+		
+	}
+/*-----------------------------*/	
+	/*ADJUSTING HEADING_*/
+	span{
+		color:#247D7F;
+		margin: 30px; /*30px 30px 30px 30px*/
+		font-size:30px;/*adjusts the font size*/
+		display: block;/*just gets the element not the whole row*/
+	}
+/*-----------------------------*/
+	/*ADJUSTING IMGS+CONTENT*/
+	
+	/*group of images1 + content1*/
+	.imgAndContentRow{
+		align-items: flex-start;/*aligns items to the top*/
+		display:flex;
+		justify-content:space-between;
+	}
+	
+	.imgRow {
+		display:flex;
+		flex-direction:column;
+		width: 170px;
+	}
+	
+	.imgItem{
+		margin-bottom: 20px;
+		align-items: flex-start;
+		display: inline-flex;
+		flex-direction: column;
+		width:100%;
+		position: relative;
+	}
+
+	.imgInAbout {
+		width: 170px;
+		height: 100px;
+		color:white;
+		text-align: left;
+		display:block;		
+	}
+	
+	.hovering {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: 0 10px 15px rgba(0, 0, 0, 1);;
+}
+	
+	.imgItem:hover .hovering{
+		opacity:1;
+	}
+
+	.aboutImgP {
+		color:white;
+		text-align: left;
+		width: 170px;
+	}
+	
+	.content {
+		text-align: center;
+		max-width: 90%; 
+		background: rgba(255, 255, 255, 0.1);
+		padding: 25px;
+		border-radius: 10px;
+		box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);/*puts a shadow like a box on the background*/
+	}
+
+	.aboutPageH1{
+		color:#247D7F;
+		font-size:20px;
+	}
+
+	.aboutPageP{
+		font-size:10px;		
+		color:white;
+		text-align:left;/*texts goes to left*/
+	}
+/*-----------------------------*/
+	/*group of images 2*/
+	
+	.imgAndContentRow2{
+		align-items: flex-start;/*aligns items to the top*/
+		display:flex;
+		justify-content:space-between;
+	}
+	
+	.top-images {
+		width: 100%;
+		display:block;
+		justify-content:space-between
+	}
+	
+	.imgsRow2{
+		display:flex;
+		flex-direction:column;
+		width: 100%;
+		margin:0 10px 15px;
+	}
+			
+	.imgItem2 {
+		margin-bottom: 20px;
+		text-align: left;
+		align-items: flex-start;
+		display: inline-flex;
+		flex-direction: column;
+		width:100%;
+		position: relative;
+	}
+
+	.imgInAbout2 {
+		width: 170px;
+		height: 100px;
+		color:white;
+		text-align: left;
+		display:block;
+	}
+	
+	.hovering2 {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: 0 10px 15px rgba(0, 0, 0, 1);;
+}
+	
+	.imgItem2:hover .hovering2{
+		opacity:1;
+	}
+
+	.aboutImgP2 {
+		color:white;
+		text-align: right;
+		width: 170px;
+	}
+
+	.imgItem3 {
+		margin-bottom: 20px;
+		text-align: right;
+		align-items: flex-start;
+		display: inline-flex;
+		flex-direction: column;
+		width:100%;
+		position: relative;
+	}
+	
+	.imgItem3:hover .hovering2{
+		opacity:1;
+	}
+
+	.imgInAbout3 {
+		object-fit: cover;/*image will fill the entire container while in its usual ratio*/	
+		width: 170px;
+		height: 200px;
+		color:white;
+		text-align: left;
+		display:block;
+	}
+	/*-----------------------------*/
+
+	/*group of content 2*/
+	.content2 {
+		overflow: hidden;
+		display: block;
+		text-align: left;
+		width: 40%;
+		background: rgba(255, 255, 255, 0.1);
+		padding: 25px;
+		border-radius: 10px;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	}
+
+	.aboutPageH2 {
+		color: #247D7F;
+		font-size: 20px;
+		text-align: left;
+		width: 100%;
+	}
+
+	.aboutPageP2 li {
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.aboutPageP2{
+		list-style-position: outside;
+	}
+
+	.aboutPageP2 li {
+		text-align: left;
+		display: list-item;
+		list-style-position: outside;
+	}
+	/* -- MENOMI -- */
+	
+	/* --- THREATS PAGE --- */
+	/*add space on top when screen size is ajusted*/
+	.col-sm-6{
+		margin-top:15px;
+	}
+	/*Adjusting screen layout for mobile display*/
+	.mobile_MG{
+		display:block;
+	}
+	.desktop_MG{
+		display:none;
+	}
+	/*columns for form*/
+	.col{
+		border:2px solid black;
+		margin:10px;
+		padding:8px;
+		background-color:white;
+		text-align:center;
+	}
+	
+	
+	
+}
+	/*-----------------------------*/
