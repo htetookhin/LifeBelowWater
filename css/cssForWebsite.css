@@ -489,26 +489,3 @@ span{
 
 }
 	/*-----------------------------*/
-/*HtetOoKhin Gallary page*/
-.left-img {
-	float: left;
-	width: 200px;
-	margin: 10px;
-}
-.right-img {
-	float: right;
-	width: 200px;
-	margin: 10px;
-}
-body {
-	background-image: url("bg.jpg");
-}
-
-.header-with-bg {
-  background-image: url("background/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px;
-  position: relative;
-}
