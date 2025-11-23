@@ -20,7 +20,7 @@
 	</head>
 	
 	
-	<body class="HOK">
+	<body class="HOKpage">
 		<!-- background image goes here 
 		<img src="backgound/bg.jpg" alt="background picture">
 		-->
@@ -29,7 +29,7 @@
 				<li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
 				<li><a href="home.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="gallary2.html">Gallery</a></li>
 				<li><a href="nasa.html">NASA</a></li>
 				<li><a href="threats.html">Threats</a></li>
 				<li><a href="WhatWeCanDo.html">What we can do</a></li>
@@ -37,6 +37,11 @@
 			</ul>
 			
 			<ul class="navbar">
+				<li class="navlogoHOK">
+					<a href="home.html">
+						<img src="background/websiteIcon.png" alt="Icon"> <!--icon for website with the class name "navbar"--!>
+					</a>
+				</li>
 				<input type="text" placeholder="Search..">
 				<li class="hideOnMobile"><a href="home.html">Home</a></li>
 				<li class="hideOnMobile"><a href="about.html">About</a></li>
@@ -50,139 +55,76 @@
 					
 		</nav>
 		
-		<!--bootstrap copy paste-->
-		<body>
-		<!-- how to add background-->
-		<div class="container-fluid p-5 bg-black text-white text-center">
-		  <h1>Life Below Water</h1>
-		  <p>Life Below Water</p> 
-		</div>
-		  
-		<div class="container mt-5">
-		  <div class="row">
-			<div class="col-sm-4">
-			  <h3>Pic 1</h3>
-			  <img src="fish/fish1.jpg" alt="fish picture">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			<div class="container-fluid p-5 bg-img1 text-red text-center">
+			  <h1>Life Below Water</h1>
+			  <h2>NASA's Ocean Research</h2> 
 			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 2</h3>
-			  <img src="fish/fish2.jpg" alt="fish picture">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			
+			<!-- motto -->
+			<br> 
+			<p class="moto">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			 </p>
+		
+			  
+			<!--nasa content-->  
+			<div class="container mt-5">
+				<div class="row align-items-center mb-5"> <!-- image lefet, text right -->
+					<div class="col-md-6 mb-4 mb-md-0"> <!--image column-->
+					  <h3 class="nasaHeading1">Lorem ipsum dolor</h3>
+					  <img class= "img-fluid nasa.image" src="nasa/nasa.png" alt="NASA picture">
+					</div>  
+					  <div id="nasaText1" class="col-md-6"> <!--text column-->
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+						  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+						  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+						  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+						  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+						  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+						  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						   ...</p>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 3</h3>  
-			<img src="fish/fish3.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			
+			<div class="container mt-5">
+				<div class="row align-items-center mb-5"> <!-- image lefet, text right -->
+					<div class="col-md-6 mb-4 mb-md-0"> <!--image column-->
+					  <h3 class="nasaHeading2">Lorem ipsum dolor</h3>
+					  <img class= "img-fluid nasa.image" src="nasa/nasa1.png" alt="NASA picture">
+					</div>  
+					  <div id="nasaText2" class="col-md-6"> <!--text column-->
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+						  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+						  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+						  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+						  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+						  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+						  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						   ...</p>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 4</h3>  
-			<img src="fish/fish4.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 5</h3>  
-			<img src="fish/fish5.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 6</h3>  
-			<img src="fish/fish6.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 7</h3>  
-			<img src="fish/fish7.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 8</h3>  
-			<img src="fish/fish8.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 9</h3>  
-			<img src="fish/fish9.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 10</h3>  
-			<img src="fish/fish10.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 11</h3>  
-			<img src="fish/fish11.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-			<div class="col-sm-4">
-			  <h3>Pic 12</h3>  
-			<img src="fish/fish12.jpg" alt="fish picture">			  
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-			  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			</div>
-		  </div>
-		</div>
+							 
 
 		</body>
 				
-		
-		<!--more pics-->
-		<!-- 
-		</p> <br> <br>		
-		<img src="fish/fish9.jpg" alt="fish picture"> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		<img src="fish/fish10.jpg" alt="fish picture"> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		<img src="fish/fish11.jpg" alt="fish picture"> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		<img src="fish/fish12.jpg" alt="fish picture"> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		<img src="fish/fish13.jpg" alt="fish picture"> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		<img src="fish/fish14.jpg" alt="fish picture">
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		<img src="fish/fish15.jpg" alt="fish picture"> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		<img src="fish/fish16.jpg" alt="fish picture"> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p> <br> <br>
-		-->
-		
 		
 		
 	<script>

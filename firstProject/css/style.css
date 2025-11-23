@@ -853,11 +853,52 @@ nav input[type=text]{
 /*  */
 
 /*HTET OO KHIN*/
+.HOK-page{
+	background-color: #80B9C8;
+	/*background-image:url("../background/bg.jpg");*/
+	background-size:auto;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
 .gallery-img {
 	/*background-image: url("background/bg.jpg");*/
 	width: 100%; /*make image fill its container */
 	height: auto; /* Maintain a spect ratio */
 	
+}
+
+.nasa-img {
+	width: 100%; /*make image fill its container */
+	height: auto; /* Maintain a spect ratio */
+}
+
+.navlogoHOK {
+	text-align: center;
+	padding: 20px 0;
+}
+.navlogoHOK img{
+	max-width: 180px;
+	width: 100%;
+	height: auto;
+}
+/* Mobile size */
+@media (max-width: 768px) {
+    .navlogoHOK img {
+        max-width: 120px;
+    }
+    .navlogoHOK img{
+        padding: 15px 0; /* Less padding on mobile */
+    }
+}
+
+
+
+/* Small mobile */
+@media (max-width: 576px) {
+    .navlogoHOK img {
+        max-width: 80px;
+    }
 }
 
 .form-control {
@@ -875,19 +916,110 @@ nav input[type=text]{
 	position: centre;
 }
 
-.bg-black {
-	background-image: url("background/bg.png");
-	background-size: cover;
+/*NASA bg*/
+.bg-img1 {
+	background-image:url("../background/nasabg.jpg");
+	background-size: auto;
 	background-position: center;
-	background-repeat: no-repeat;
-	min-height: 300px; 
+	background-repeat: repeat;
+	min-height: 400px; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: relative;
+	border: 3px solid blue;
+	color: black;
 }
+
+.bg-img {
+	background-image:url("../background/bg.jpg");
+	/*background-color: mediumblue;*/
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 400px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	border: 3px solid blue;
+	color: black;
+}
+
+/*nasa img*/
+#imgRight {
+	float: right;
+	margin-right: 40px;
+	width: 100%; /*make image fill its container */
+	height: auto; /* Maintain a spect ratio */
+}
+
+#imgLeft {
+	float: left;
+	margin-left: 40px;
+	width: 100%; /*make image fill its container */
+	height: auto; /* Maintain a spect ratio */
+}
+
+
+
+.nasaHeading {
+	font-family: "Roboto Flex", sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	text-align: center;
+		
+}
+
+.moto {
+	font-family: "Roboto Flex", sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	color: #555;
+	margin: 20px auto;
+	padding: 0 20px;
+	max-width: 800px;
+}
+
 
 .captionText {
 	font-family: "Roboto Flex", sans-serif;
 	font-size: auto;
 	font-style: normal;
+	text-align: left;
+	
 }
+
+.nasaText {
+	font-family: "Roboto Flex", sans-serif;
+	font-size: auto;
+	font-style: normal;
+	text-align: left;
+	padding: 30px;
+	background: blue;
+	box-shadow: 0 4px 6px rgba (0,0,0,0.1);
+	margin-bottom: 40px;
+}
+
+/* nasa text right and left 
+#nasaText1 {
+	
+	border:1px solid blue;
+	position: fluid;
+	bottom: 10px;
+	right: 30px;
+	background-color: grey;
+	
+}
+
+#nasaText2 {
+	
+	border:1px solid blue;
+	position: fluid;
+	bottom: 10px;
+	right: 30px;
+	background-color: grey;
+	
+}
+*/
