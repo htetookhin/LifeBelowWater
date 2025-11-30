@@ -1,0 +1,1044 @@
+/*NAVIGATION BAR*/
+/* The box, background-color for navbar*/
+.navbar {
+	background-color:#247D7F;
+}
+.group-navbar .nav-link {
+     color:white; 
+}
+.group-btn{
+	color:white;
+}
+/*-----------------------------*/
+/*HOME PAGE:*/
+/*-- Hande Eda Ozdemir --*/
+/*-----------------------------*/
+
+/*BACKGROUND_*/
+body.edaPages{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("background1.jpg");/*rgba's makes background to look darker*/
+	background-repeat: no-repeat;/*so that the background doesnt repeat itself as an img*/
+	background-size: cover;/*covers the whole page*/
+	background-attachment: fixed;/*when you scroll down background stays at the same position*/
+}
+
+/*HEADING_*/
+
+.homePageH{
+	color:#247D7F;
+	margin: 80px 30px 30px 30px;/*top right bottom left*/
+	font-size: 70px;
+	text-align: center;/*text gets displayed in center*/
+	
+	/*FONT*/
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 70px;
+	font-style: normal;
+}
+
+span{
+	color:#247D7F;
+	display: block;/*just gets the element not the whole row*/
+}
+
+/*EXPLORE BUTTON_*/
+
+#exploreButton{
+	margin: 40px auto 30px auto;/*makes right and left margin auto which helps it to center the content.*/
+	text-align: center;
+	display: block;
+	text-decoration:none;/*line under the link disapears*/
+	color:white;
+	background-color:black;
+	border-radius: 5px;
+	border:1px solid black;
+	padding: 14px 25px;
+	width: fit-content;/*fits the content in a box. ex, border would be just around the element, not whole row*/
+	
+	/*FONT*/
+	font-family: "Barlow", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+
+}
+
+#exploreButton:hover{/*when you hover on the link with the mouse, it uses the css below.*/
+	background-color:#80B9C8;
+
+}
+/*ABOUT PAGE:*/
+
+/*group of images 1_*/
+
+.content-card {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+.aboutImgP { 
+	margin:0;
+	color:white;
+	
+	/*FONTS*/
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/*-----------------------------*/
+
+/*group of content 1_*/
+
+
+/* Headings */
+.aboutPageH1,
+.aboutPageH2{
+	color:#247D7F;
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+/* Paragraphs/Lists */
+.aboutPageP,
+.aboutPageP2{
+	color:white;
+	text-align:left;
+	
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/* Image captions */
+.aboutImgP,
+.aboutImgP2 { 
+	margin:0;
+	color:white;
+	
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/* Hover effects - OPTIONAL */
+.hovering,
+.hovering2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+}
+
+.hovering p,
+.hovering2 p {
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+/* Parent container needs position relative */
+.img-container {
+	position: relative;
+}
+
+.img-container:hover .hovering,.img-container:hover .hovering2 {
+	opacity: 1;
+}
+
+/* Author name */
+#authorName {
+	color: #247D7F;
+	text-align: center;
+	margin-top: 50px;
+	font-family: "Stack Sans Notch", sans-serif;
+}
+/*-----------------------------*/
+/*--MENOMI--*/
+/* Threats and what we can do pages*/
+
+/* -- BODY FOR WHAT WE CAN DO PAGE --*/
+body.MG_Pages {
+	background-color:white;
+	/*google font common to all text*/
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+/* -- BODY FOR THEATS PAGE --*/
+body.MG_Threatspg {
+	background-color:#03002e;
+	/*google font common to all text*/
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/*HEADINGS*/
+/*class for headings to use google fonts*/
+.stack-sans-notch-MG{
+  font-family: "Stack Sans Notch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:semi-bold;
+  font-style: normal;
+  text-align:center;
+  color:white;
+}
+
+/*THREATS PAGE*/
+
+/*CARDS IN SECTION I*/
+/*add border around the paragraphs*/
+.box_MG{
+	border:2px solid black;
+	text-align:center;
+	padding:5px;
+	margin-top:20px;
+	margin-bottom:15px;
+	background-image:url('box_bg_MG.jpg');
+
+}
+.box_MG:hover{
+	box-shadow:4px 4px #C29470;
+	border-radius:3px;
+}
+
+/*text linking cards to paragraphs */
+.links_MG{
+	text-decoration:none;
+	color:black;
+	border:2px solid #C29470;
+	padding:4px;
+}
+
+/*PARAGRAPHS IN SECTION II */
+.stack-sans-notch-MG-threats{
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	text-align:left;
+}
+.sectionII_MG{
+	background-color:white;
+}
+.paragraphs_MG{
+	margin:20px;
+	text-align:justify;
+}
+.mobile_MG{
+	display:none;/* Hides mobile version */
+}
+
+/*--- WHAT WE CAN DO page ---*/
+/* add different background for headings part */
+.headings_MG{
+	background-image:url('sea_MG.jpg');
+}
+/* -- FIRST SECTION OF PAGE -- */
+.sectionI_what_MG{
+	background-color:white; /* -- campaigns section with white background -- */
+	color:black;
+	padding:10px;
+	margin-bottom:8px;
+}
+
+/*side menu in the right side of page*/
+.menu_MG{
+	border:2px solid white;
+	margin:10px;	
+	padding:8px;
+	text-align:center;
+	float:right;
+}
+.menu_MG li{
+	list-style-type:none;
+	margin:10px;
+	padding:15px;
+		
+}
+.menu_MG ul li a{
+	text-decoration:none;
+	color:black;
+}
+.menu_MG a:hover{
+	border:0.5px solid #C29470;
+	border-radius:5px;
+	padding:8px;
+	margin:4px;
+	box-shadow:3px 3px  #C29470;
+}
+
+/*-- SECOND PART OF PAGE -- */
+.sectionII_what_MG{
+	background-image:url('coral_bg_MG.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.stack-sans-notch-sw-MG{
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	text-align:center;
+	color:black;
+}
+/*-- images that align left --*/
+.campaign1_MG{
+	float:left;
+	padding:10px;
+	margin:20px;
+	width:30%;
+}
+/*-- linked image in first campaign --*/
+.campaign1_center_MG{
+	display: block;
+	margin: auto;
+	width:20%;
+}
+/* -- images that align right --*/
+.campaign2_MG{
+	float:right;
+	padding:10px;
+	margin:20px;
+	width:30%
+}
+/* -- project images in second campaign -- */
+.campaign2_center_MG{
+	width:20%;
+	margin:10px;
+}
+
+/* -- Information paragraphs -- */
+.campaignp_MG{
+	text-align:justify;
+	margin:10px;
+}
+
+/* -- Styling for form -- */
+.input_MG{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+.custom-control-label{
+	color:white;
+}
+.submit_MG{
+	display:flex;
+	justify-content:center;
+	margin-bottom:20px;
+	
+}
+.form-btn-MG{
+	background-color:#03002e;
+	margin-bottom:5px;
+}
+/* -- END -- */
+
+/*-- 
+
+/*--Htet Oo Khin Pages--*/
+
+/*HTET OO KHIN Gallery page*/
+
+ * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto Flex', sans-serif;
+            background-color: #f5f7fa;
+        }
+        
+        .form {
+            display: none;
+            margin: 50px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            max-width: 800px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .form.show {
+            display: block;
+            animation: slideIn 0.4s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+       
+        
+        
+        .title-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="white" opacity="0.1"/></svg>');
+            animation: float 20s linear infinite;
+        }
+        
+        @keyframes float {
+            from { transform: translateY(0); }
+            to { transform: translateY(-100px); }
+        }
+        
+        .title-section h1 {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .title-section p {
+            font-size: 1.4rem;
+            font-family: 'Roboto Flex', sans-serif;
+            position: relative;
+            z-index: 1;
+            opacity: 0.95;
+        }
+        
+        .moto {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+            line-height: 1.8;
+            font-style: italic;
+        }
+        
+        .hokGallery {
+            padding: 20px 0 60px;
+        }
+        
+        .hokGallery .col-6,
+        .hokGallery .col-lg-3 {
+            padding: 15px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transition: all 0.4s ease;
+            background: white;
+            height: 100%;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+        }
+        
+        .gallery-img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+        
+        .gallery-item:hover .gallery-img {
+            transform: scale(1.1);
+        }
+        
+        .text-container {
+            padding: 20px;
+            background: white;
+        }
+        
+        .text-container h3 {
+            font-size: 1.3rem;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .captionText {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .invalid-feedback {
+            display: none;
+            color: #dc3545;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+        
+        .invalid-feedback.show {
+            display: block;
+        }
+        
+        .form-control.is-invalid {
+            border-color: #dc3545;
+            box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+        }
+        
+        .form-control.is-valid {
+            border-color: #198754;
+            box-shadow: 0 0 0 0.2rem rgba(25,135,84,.25);
+        }
+        
+        .form-control,
+        select.form-control {
+            border-radius: 8px;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        
+        .form-control:focus,
+        select.form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102,126,234,.25);
+        }
+        
+        label {
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .personalInfo {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            font-weight: 600;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        #donationBtn {
+            display: block;
+            margin: 50px auto;
+            padding: 18px 50px;
+            font-size: 1.3rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 8px 20px rgba(102,126,234,0.4);
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        #donationBtn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(102,126,234,0.5);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 8px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102,126,234,0.4);
+        }
+        
+        .btn-secondary {
+            border-radius: 8px;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
+        
+        .success-message {
+            display: none;
+            padding: 30px;
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+            border: none;
+            border-radius: 15px;
+            color: #155724;
+            margin-top: 30px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .success-message.show {
+            display: block;
+            animation: slideIn 0.4s ease-out;
+        }
+        
+        .success-message h5 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px 20px;
+            margin-top: 80px;
+        }
+        
+        @media (max-width: 768px) {
+            .title-section h1 {
+                font-size: 2.5rem;
+            }
+            
+            .gallery-img {
+                height: 200px;
+            }
+            
+            .text-container {
+                padding: 15px;
+            }
+        }
+		
+		
+		
+/*HTET OO KHIN Gallery page*/
+ {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto Flex', sans-serif;
+            background-color: #f5f7fa;
+        }
+        
+        .bg-img1 {
+            font-family: 'Protest Riot', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 80px 20px !important;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .bg-img1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="white" opacity="0.1"/></svg>');
+            animation: float 20s linear infinite;
+        }
+        
+        @keyframes float {
+            from { transform: translateY(0); }
+            to { transform: translateY(-100px); }
+        }
+        
+        .bg-img1 h1 {
+            font-size: 3.5rem;
+            color: white;
+            position: relative;
+            z-index: 1;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            margin-bottom: 15px;
+            animation: fadeInDown 1s ease-out;
+        }
+        
+        .bg-img1 h2 {
+            font-size: 1.8rem;
+            color: rgba(255,255,255,0.95);
+            font-family: 'Roboto Flex', sans-serif;
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 1s ease-out 0.3s backwards;
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .moto {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 800px;
+            margin: 50px auto 60px;
+            padding: 0 20px;
+            line-height: 1.8;
+            font-style: italic;
+            animation: fadeInUp 1s ease-out 0.6s backwards;
+        }
+        
+        .content-section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            opacity: 0;
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        
+        .content-section:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        
+        .content-section:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        
+        .content-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.12);
+        }
+        
+        .nasa-image {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transition: transform 0.4s ease;
+        }
+        
+        .nasa-image:hover {
+            transform: scale(1.05) rotate(1deg);
+        }
+        
+        .nasaHeading1, .nasaHeading2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e3c72;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .nasaHeading1::after, .nasaHeading2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 4px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 2px;
+            animation: expandLine 1s ease-out 0.5s forwards;
+        }
+        
+        @keyframes expandLine {
+            to {
+                width: 80px;
+            }
+        }
+        
+        .text-preview {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        
+        .text-full {
+            display: none;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+            margin-top: 15px;
+        }
+        
+        .text-full.show {
+            display: block;
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .read-more-btn {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(30, 60, 114, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .read-more-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .read-more-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .read-more-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(30, 60, 114, 0.4);
+        }
+        
+        .read-more-btn span {
+            position: relative;
+            z-index: 1;
+        }
+		
+		/*HTET OO KHIN Gallery page*/
+        
+       .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px 20px;
+            margin-top: 80px;
+            text-align: center;
+        }
+		
+       
+        .footer .logo {
+            width: 50px;
+            margin-bottom: 20px;
+           /* animation: pulse 2s ease-in-out infinite; */
+        }
+		
+		
+        /*
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+		*/
+        
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .footer a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #3498db;
+            transition: width 0.3s ease;
+        }
+        
+        .footer a:hover::after {
+            width: 100%;
+        }
+        
+        .footer a:hover {
+            color: #3498db;
+            transform: translateY(-2px);
+        }
+        
+        /* Scroll reveal animation */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        
+        .scroll-reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        @media (max-width: 768px) {
+            .bg-img1 h1 {
+                font-size: 2.5rem;
+            }
+            
+            .bg-img1 h2 {
+                font-size: 1.4rem;
+            }
+            
+            .content-section {
+                padding: 25px;
+            }
+            
+            .nasaHeading1, .nasaHeading2 {
+                font-size: 1.5rem;
+            }
+        }
+    
+	 .aaa {
+            
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+			  font-family: "Stack Sans Notch", sans-serif;
+			  font-optical-sizing: auto;
+			  font-weight: <weight>;
+			  font-style: normal;
+}
