@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Hande Eda Ozdemir">
+		
+		<title>HOME PAGE</title>
+		<!--link to css--!>
+		<script src="jsForWebsite.js"></script><!--link to js--!>
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"/><!--bootstrap link for css--!>
+		<link rel="stylesheet" href="style.css"/>
+		
+	</head>
+	<body class="edaPages">
+		<!--Navigation bar-->
+		<nav class="navbar navbar-expand-lg group-navbar **py-1**">
+			<div class="container-fluid d-flex align-items-center">
+
+				<a class="navbar-brand **me-auto**" href="home.html">
+				  <img src="websiteIcon.png" alt="logo" width="30" height="34">
+				</a>
+
+				<!-- Toggler -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Collapsible content -->
+				<div class="collapse navbar-collapse" id="navbarContent">
+		  
+				<!-- Search bar -->
+				<form class="d-flex ms-auto me-3" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn group-btn" type="submit">Search</button>
+				</form>
+
+				<!-- Links -->
+				<ul class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nasa.html">NASA</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="threats.html">Threats</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="WhatWeCanDo.html">What we can do</a>
+					</li>
+				</ul>
+
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			
+		
+			<div class="row">
+				<div class="col-12">
+					<h1 class="homePageH">LIFE <span>BELOW WATER</span></h1><!--elements inside the span are seperated from h1--!>
+						
+					<a href="about.html" id="exploreButton">Explore the Unknown</a><!--link for ~"explore", which goes to "about page"--!>
+				</div>
+			</div>	
+		</div>
+	
+		
+		<!--put bootstrap link for js before the closing body tag--!>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+		
+	</body>
+
+</html>

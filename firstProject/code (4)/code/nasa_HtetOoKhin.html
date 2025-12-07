@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sea exploration by NASA</title>
+    <meta charset="UTF-8">
+	<!--SEO info for browser-->
+    <meta name="description" content="Sea life exploration by NASA">
+    <meta name="keywords" content="NASA, Corals, Fish">
+    <meta name="author" content="Htet Oo Khin">
+	<!--responsive for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap: responsive grid system-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--googlefont Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Protest+Riot&display=swap" rel="stylesheet">
+    <!--googlefont StackSansNotch-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+	<!--external CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="hokPages">
+    <!--Navigation bar section: logo, search bar and links-->
+    <nav class="navbar navbar-expand-lg group-navbar py-1">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand me-auto" href="index.html">
+              <img src="websiteIcon.png" alt="logo" width="30" height="34">
+            </a>
+              <!-- Toggler / mobile menu button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible menu links -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Search bar -->
+                <form class="d-flex ms-auto me-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn custom-btn" type="submit">Search</button>
+                </form>
+                <!--Nevigation Links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about_HandeEdaOzdemir.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery_HtetOoKhin.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nasa_HtetOoKhin.html">NASA</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="threats_MenomiGamage.html">Threats</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="WhatWeCanDo_MenomiGamage.html">What we can do</a>
+					</li>
+				</ul>
+            </div>
+        </div>
+    </nav>
+    
+	 <!-- Page Header/ title -->
+	<div class="hokHeadSection">
+        <h1>Life Below Water</h1>
+        <p>NASA's Ocean Research</p> 
+    </div>
+        
+    <!-- motto section -->
+    <br> 
+	<!-- quote source: https://chat.deepseek.com/a/chat/s/97bc3fbb-0462-4849-a8c0-8d9647f58066-->
+    <p class="hokMotto">“Somewhere, something incredible is waiting to be known.”<br> <strong>
+	Carl Sagan</strong> </p>
+
+    <!--nasa content-->  
+	<!-- first content section-->
+    <div class="container mt-5">
+        <div class="row align-items-center content-section scroll-reveal"> <!--class name with custom names, columns go next-->
+            <!--left column: heading and image-->
+			<div class="col-md-6 mb-4 mb-md-0">
+                <h3 class="nasaHeading1">The internal structure of Saturn's moon, Enceladus, and its subsurface ocean</h3>
+                <img class="img-fluid nasa-image" src="hokImages/nasaHOK.png" alt="NASA picture">
+            </div>  
+			<!--right column: content with Read More function-->
+            <div id="nasaText1" class="col-md-6">
+			<!-- content source: https://chat.deepseek.com/a/chat/s/97bc3fbb-0462-4849-a8c0-8d9647f58066-->
+				<!--preview text by default-->
+                <div class="hokTextPreview">
+                    Humanity’s search for life below water goes beyond Earth’s oceans.
+					NASA studies deep-sea environments to understand how life survives in extreme conditions,
+					and this research guides the exploration of ocean worlds like Enceladus and Europa.
+					Beneath thick ice layers, these moons hide vast oceans where hydrothermal vents may
+					provide heat, minerals, and the chemistry needed for life. By studying Earth’s deep sea,
+					NASA learns how ecosystems adapt to darkness, pressure, 
+					and isolation—knowledge that strengthens our search for life across the solar system....
+                </div>
+				<!--full text/hidden by defalut, shown on click-->
+                <div class="hokTextFull" id="fullText1">
+				<p class="nasaDescription_one">
+                   Ut enim ad minim veniam, NASA uses submersible robots, satellites, and deep-sea sensors to explore underwater volcanoes, methane seeps, and hydrothermal vents. These places host organisms that survive without sunlight, relying on chemical reactions between water and rock. Discoveries such as extremophile bacteria and mineral-rich “white smokers”
+				   help NASA model how life could exist in alien oceans. Just as water plumes on Enceladus 
+				   reveal clues about its hidden sea, Earth’s deep-sea vents teach us how biology might 
+				   evolve in harsh environments.
+					Duis aute irure dolor in reprehenderit, NASA’s ocean research supports 
+					the Life Below Water goal by protecting marine biodiversity and tracking 
+					climate-driven changes. Satellites help measure sea-level rise, monitor coral bleaching, 
+					and detect pollution from space. At the same time, the study of distant ocean worlds
+					inspires new ideas about preserving our own planet’s waters. Through this combination of
+					deep-sea science and space exploration, NASA shows that understanding Earth’s oceans is 
+					essential not only for protecting marine life, but also for discovering life beyond Earth.
+					Excepteur sint occaecat cupidatat non proident, the connection between oceanography and p
+					lanetary science continues to grow. Research from both Earth and space reminds us that
+					oceans—on any world—are vital reservoirs of life and energy. By exploring the deep sea and
+					the icy oceans of other moons, NASA encourages us to value, protect, and understand
+					the waters that sustain life today and may reveal new forms of life tomorrow.
+				</p>
+			  </div>
+				<!--toggle button for expanding text-->
+                <button class="read-more-btn" onclick="toggleText('fullText1', this)"><span>Read More</span></button>
+            </div>
+        </div>
+    </div>
+    
+	<!--second content section-->
+    <div class="container mt-5">
+        <div class="row align-items-center content-section scroll-reveal">
+			<!--right column: content with Read More function-->
+            <div id="nasaText2" class="col-md-6 order-md-1">
+                <div class="hokTextPreview">
+                    Beneath the icy surface of Saturn’s moon Enceladus lies a hidden global ocean 
+					that may be one of the best places to search for life beyond Earth. The warm water 
+					interacts with the moon’s rocky core, creating hydrothermal activity similar to deep-sea 
+					vents on our own planet. As pressure builds, this ocean water escapes through cracks
+					in the ice and erupts as towering plumes, giving NASA direct access to material from
+					an alien sea. This discovery has turned Enceladus into a key target for understanding 
+					how oceans form and whether life can exist in the darkest places of the solar system....
+                </div>
+                <div class="hokTextFull" id="fullText2">
+					<p class="hokNasaDescription_two">
+                   Ut enim ad minim veniam, NASA’s exploration of Enceladus focuses 
+				   on its unique combination of heat, water, and chemistry. Deep beneath the surface, 
+				   hydrothermal vents release minerals and energy into the ocean, creating conditions
+				   similar to those that support life on Earth’s seafloor. These reactions between water 
+				   and rock may generate the nutrients needed for microbial ecosystems, even though sunlight
+				   never reaches this world. As hot water rises through the ocean and meets the ice shell,
+				   cracks open and allow plumes of vapor, ice grains, and organic molecules to burst into space.
+					Duis aute irure dolor in reprehenderit, NASA spacecraft have flown through
+					these jets and detected carbon-based compounds, salts, and signs of ongoing 
+					chemical reactions. This means we are sampling an extraterrestrial ocean without
+					ever landing on its surface. The possibility that Enceladus hosts hydrothermal 
+					activity—something once thought impossible so far from the Sun—has reshaped our
+					understanding of where life might exist.
+					Excepteur sint occaecat cupidatat non proident, the study of Enceladus strengthens 
+					the goals of Life Below Water by showing how oceans can thrive in extreme conditions.
+					By comparing Earth’s deep-sea vents with those illustrated in the image, scientists
+					learn how life adapts to pressure, darkness, and isolation. NASA’s work on ocean worlds 
+					reminds us that protecting Earth’s waters is essential, not only for the species living 
+					here, but for understanding the potential for life in oceans throughout the universe.
+					</p>
+			   </div>
+                <button class="read-more-btn" onclick="toggleText('fullText2', this)"><span>Read More</span></button>
+            </div>
+			<!--right column-heading and image -->
+            <div class="col-md-6 mb-4 mb-md-0 order-md-2">
+                <h3 class="nasaHeading2">A cross-section of Enceladus, revealing its icy shell, ocean, and hydrothermal activity</h3>
+                <img class="img-fluid nasa-image" src="hokImages/nasa1HOK.png" alt="NASA picture">
+            </div>  
+        </div>
+    </div>
+    
+    <!-- division for the footer-->	
+    	<div class="footer">
+		<!-- logo image-->
+			<img class="logo" src="websiteIcon.png" alt="logo">
+		 <!-- list of links to important resources-->
+			 <ul>
+				<li> <a href="https://www.unep.org/topics/sustainable-development-goals/why-do-sustainable-development-goals-matter/goal-14" target="_blank">UN Environment Programme</a></li>
+				<li> <a href="https://globalgoals.org/goals/14-life-below-water/" target="_blank">The Global Goals</a></li>
+				<li> <a href="https://www.youtube.com/watch?v=rzSBtx_bZc4" target="_blank" >UN Sustainable Development Goals - DEEP DIVE</a></li>
+				<li> <a href="https://www.sciencefocus.com/future-technology/can-humans-live-under-the-sea-experiment-deep" target="_blank" >Can humans live under the sea?</a></li>
+			</ul>
+		</div>
+
+	<!--JAVASRCIPT SECTION-->
+    <script>
+	//toggle function Read More/Less
+        function toggleText(textId, button) {
+            const fullText = document.getElementById(textId);
+            const span = button.querySelector('span');
+            
+            if (fullText.classList.contains('show')) {
+                fullText.classList.remove('show');
+                span.textContent = 'Read More';
+            } else {
+                fullText.classList.add('show');
+                span.textContent = 'Read Less';
+				//smooth scroll to the expanding 
+                setTimeout(() => {
+                    fullText.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 100);
+            }
+        }
+        
+        //scroll animations 
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, observerOptions);
+        
+		//apply observer to all scroll reveal
+        document.querySelectorAll('.scroll-reveal').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

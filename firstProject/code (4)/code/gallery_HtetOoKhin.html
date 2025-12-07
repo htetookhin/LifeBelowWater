@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery Page: Beauty of Below Water: </title>
+    <meta charset="UTF-8">
+	<!--SEO info for browser-->
+    <meta name="description" content="Images of life below water">
+    <meta name="keywords" content="ocean, fish, marine life, images">
+    <meta name="author" content="Htet Oo Khin">
+	<!--responsive for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap: responsive grid system-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!--bootstrap javascript: navbar toggler etc.-->
+    <!--googlefont Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Protest+Riot&display=swap" rel="stylesheet">
+    <!--googlefont StackSansNotch-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+	<!--external CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="hokPages">
+    <!--Navigation bar section: logo, search bar and links-->
+    <nav class="navbar navbar-expand-lg group-navbar py-1">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand me-auto" href="index.html">
+              <img src="websiteIcon.png" alt="logo" width="30" height="34">
+            </a>
+            <!-- Toggler / mobile menu button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible menu links -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+            <!-- Search bar -->
+            <form class="d-flex ms-auto me-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn group-btn" type="submit">Search</button>
+            </form>
+            <!--Nevigation Links -->
+            <ul class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about_HandeEdaOzdemir.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery_HtetOoKhin.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nasa_HtetOoKhin.html">NASA</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="threats_MenomiGamage.html">Threats</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="WhatWeCanDo_MenomiGamage.html">What we can do</a>
+					</li>
+				</ul>
+
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Page Header/ title -->
+    <div class="hokHeadSection">
+        <h1>Life Below Water</h1>
+        <p>Discover the Beauty of Our Ocean</p>
+    </div>
+    
+    <!-- motto section -->
+    <br> 
+	<!-- quote source: https://chat.deepseek.com/a/chat/s/97bc3fbb-0462-4849-a8c0-8d9647f58066-->
+    <p class="hokMotto">“Capturing the unseen worlds of our oceans and beyond.”
+    </p>
+    
+    <!--images go here//gallery section-->
+    <div class="hokGallery"> 
+	
+        <div class="container mt-5"> <!--using bootstrap grid: 4 columns on large and 2 on mobile-->
+            <div class="row">
+			<!--columns go here-->
+            <!-- Pic-1 -->
+				<!--gallery template for all images: col-6 for small/ col-lg-3 for large-->
+                <div class="col-6 col-lg-3 mb-4"> 
+                    <div class="hokGalleryItem">
+						<!--image source: https://www.istockphoto.com-->
+                        <img src="hokImages/fish1HOK.jpg" class="hokGalleryImg" alt="Image of Beautiful Sea Animal">	
+                        <div class="text-container d-none d-lg-block">	
+                            <h3>A sea animal in the sunlit depths</h3>
+                            <p class="hokCaptionText">A peaceful swimmer in a shaft
+							of sunlight....</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pic-2-->
+                <div class="col-6 col-lg-3 mb-4">
+                    <div class="hokGalleryItem">
+						<!--image source: https://www.istockphoto.com-->
+                        <img src="hokImages/fish2HOK.jpg" class="hokGalleryImg" alt="Image of Jellyfish">	
+                        <div class="text-container d-none d-lg-block">
+                            <h3>Fish suspended in sunlit water</h3>
+                            <p class="hokCaptionText">A solitary swimmer drifting through a soft beam of light.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pic-3-->
+                <div class="col-6 col-lg-3 mb-4">
+                    <div class="hokGalleryItem">
+						<!--image source: https://www.istockphoto.com-->
+                        <img src="hokImages/fish3HOK.jpg" class="hokGalleryImg" alt="Image of Sea Life">	  
+                        <div class="text-container d-none d-lg-block">
+                             <h3>A whale emerges from blue water</h3> 
+                            <p class="hokCaptionText">A massive, serene creature surfaces into a shaft of light</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Pic-4-->
+                <div class="col-6 col-lg-3 mb-4">
+                    <div class="hokGalleryItem">
+                        <img src="hokImages/fish4HOK.jpg" class="hokGalleryImg" alt="Image of Underwater Beauty">	
+						<!--image source: https://www.istockphoto.com-->
+                        <div class="text-container d-none d-lg-block">
+                            <h3>Sea dragon drifts in sunlit, blue waters</h3>  
+                          <p class="hokCaptionText">A master of camouflage sways gently, like underwater seaweed</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Pic-5 -->
+                <div class="col-6 col-lg-3 mb-4">
+                    <div class="hokGalleryItem">
+                        <img src="hokImages/fish5HOK.jpg" class="hokGalleryImg" alt="Image of Shark in Deep Water">
+						<!--image source: https://www.istockphoto.com-->					
+                        <div class="text-container d-none d-lg-block">
+                            <h3>Shark glide through deep, blue water</h3>  
+                            <p class="hokCaptionText">Lone, streamlined shark swims through a tranquil sunbeam</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Pic-6 -->
+                <div class="col-6 col-lg-3 mb-4">
+                    <div class="hokGalleryItem">
+						<!--image source: https://www.istockphoto.com-->
+                        <img src="hokImages/fish6HOK.jpg" class="hokGalleryImg" alt="Image of Sharks">
+                        <div class="text-container d-none d-lg-block">
+                            <h3>Shark drift in sunlit, deep water</h3>  			
+                          <p class="hokCaptionText">A lone predator moves gracefully through a beam of light</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Pic-7 -->
+                <div class="col-6 col-lg-3 mb-4">
+                    <div class="hokGalleryItem">
+						<!--image source: https://www.istockphoto.com-->
+                        <img src="hokImages/fish7HOK.jpg" class="hokGalleryImg" alt="Image of Peaceful Underwater">
+                        <div class="text-container d-none d-lg-block">
+                            <h3>Seaweed sways in sunlit, deep water</h3>  
+                          <p class="hokCaptionText">A lush, green seaweed moves gracefully in tranquil blue</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pic-8 -->
+                <div class="col-6 col-lg-3 mb-4">
+                    <div class="hokGalleryItem">
+						<!--image source: https://www.istockphoto.com-->
+                        <img src="hokImages/fish8HOK.jpg" class="hokGalleryImg" alt="Image Turtle and Fish">
+                        <div class="text-container d-none d-lg-block">
+                             <h3>Turtle swims through sunlit blue water</h3>  
+                         <p class="hokCaptionText">A gentle sea creature gliding peacefully through filtered sunlight</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--images ends here-->
+    
+    <!--form section-->
+    <button class="btn btn-primary" id="hokDonationBtn">Make a Donation</button>	
+    
+    <div class="hokForm" id="donationForm">
+        <div class="container mt-3">
+            <h4 class="hokPersonalInfo">Personal Information</h4>
+            <div class="row">
+                <form id="donationFormElement" novalidate> <!--validation disabled-->
+				<!--First name field with validation//repeat same strcture for the last of form-->
+                    <div class="col-mb-6 mb-3">
+                        <label for="fname">First Name: <span style="color: red;">*</span></label>
+                        <input type="text" class="form-control" id="fname" placeholder="First Name" name="First name" required>
+                        <div class="hokInvalidFeedback" id="fnameError">Please enter your first name.</div>
+                    </div>
+                
+                    <div class="mb-3 mt-3">
+                        <label for="lname">Last Name: <span style="color: red;">*</span></label>
+                        <input type="text" class="form-control" id="lname" placeholder="Last Name" name="Last name" required>
+                        <div class="hokInvalidFeedback" id="lnameError">Please enter your last name.</div>
+                    </div>
+                    
+                    <div class="mb-3 mt-3">
+                        <label for="birthday">Birthday: <span style="color: red;">*</span></label>
+                        <input type="date" class="form-control" id="birthday" name="Birthday" required>
+                        <div class="hokInvalidFeedback" id="birthdayError">Please enter your birthday.</div>
+                    </div>
+                    
+                    <div class="mb-3 mt-3">
+                        <label for="phone">Phone Number: <span style="color: red;">*</span></label>
+                        <input type="tel" class="form-control" id="phone" placeholder="123-456-7890" name="Phone Number"  required>
+                        <div class="hokInvalidFeedback" id="phoneError">Please enter a valid phone number. </div>
+                    </div>
+                  
+                    <div class="mb-3 mt-3">
+                        <label for="email">Email: <span style="color: red;">*</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                        <div class="hokInvalidFeedback" id="emailError">Please enter a valid email address.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="payment">Card Type: <span style="color: red;">*</span></label> 
+                        <select id="payment" name="Payment" class="form-control" required>
+                            <option value="">Select a card type</option>
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">Master Card</option>
+                            <option value="paypal">Paypal</option>
+                        </select>
+                        <div class="hokInvalidFeedback" id="paymentError">Please select a card type.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="pwd">Password: <span style="color: red;">*</span></label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" minlength="8" required>
+                        <div class="hokInvalidFeedback" id="pwdError">Password must be at least 8 characters long.</div>
+                    </div>
+                    
+                    <div class="form-check mb-3">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                        </label>
+                    </div>
+                    
+                    <div class="mb-3 mt-3">
+                        <label for="comment">Comments:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary submit-hok">Submit</button>
+                    <button type="button" class="btn btn-secondary ms-2" id="cancelBtn">Cancel</button>
+                </form>
+				
+				<!--success message which hidden until form submits-->
+                
+                <div class="hokSuccessMessage" id="successMessage">
+                    <h5>Thank you for your donation!</h5>
+                    <p>Your form has been successfully submitted.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                
+    <!--form ends here-->
+    
+    <!--Footer sction: division for the footer-->	
+    <div class="footer">
+		<!-- logo image-->
+			<img class="logo" src="websiteIcon.png" alt="logo">
+		 <!-- list of links to important resources-->
+			 <ul>
+				<li> <a href="https://www.unep.org/topics/sustainable-development-goals/why-do-sustainable-development-goals-matter/goal-14" target="_blank">UN Environment Programme</a></li>
+				<li> <a href="https://globalgoals.org/goals/14-life-below-water/" target="_blank">The Global Goals</a></li>
+				<li> <a href="https://www.youtube.com/watch?v=rzSBtx_bZc4" target="_blank" >UN Sustainable Development Goals - DEEP DIVE</a></li>
+				<li> <a href="https://www.sciencefocus.com/future-technology/can-humans-live-under-the-sea-experiment-deep" target="_blank" >Can humans live under the sea?</a></li>
+			</ul>
+		</div>
+		
+	<!--JAVASRCIPT SECTION-->
+	<!-- Handles: show/hide form// input validation// success message-->
+		
+
+    <script>
+        //show and hide form on click
+        document.getElementById('hokDonationBtn').addEventListener('click', function() {
+            const form = document.getElementById('donationForm');
+            form.classList.toggle('show');
+			//scroll to form when opening
+            if (form.classList.contains('show')) {
+                form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+
+        //cancel button: hide and reset
+        document.getElementById('cancelBtn').addEventListener('click', function() {
+            document.getElementById('donationForm').classList.remove('show');
+            document.getElementById('donationFormElement').reset();
+            clearValidation();
+        });
+
+        //form submit validation
+        document.getElementById('donationFormElement').addEventListener('submit', function(e) {
+            e.preventDefault(); //default stop
+            
+            let isValid = true;
+            
+            
+            clearValidation(); //remove old errors 
+			
+			//validate info inside           
+            
+            const fname = document.getElementById('fname');
+            if (fname.value.trim() === '') {
+                showError(fname, 'fnameError');
+                isValid = false;
+            } else {
+                showSuccess(fname);
+            }
+            
+            
+            const lname = document.getElementById('lname');
+            if (lname.value.trim() === '') {
+                showError(lname, 'lnameError');
+                isValid = false;
+            } else {
+                showSuccess(lname);
+            }
+            
+            
+            const birthday = document.getElementById('birthday');
+            if (birthday.value === '') {
+                showError(birthday, 'birthdayError');
+                isValid = false;
+            } else {
+                const selectedDate = new Date(birthday.value);
+                const today = new Date();
+                if (selectedDate > today) {
+                    document.getElementById('birthdayError').textContent = 'Birthday cannot be in the future.';
+                    showError(birthday, 'birthdayError');
+                    isValid = false;
+                } else {
+                    showSuccess(birthday);
+                }
+            }
+            
+            
+            const phone = document.getElementById('phone');
+            const phonePattern = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
+            if (!phonePattern.test(phone.value)) {
+                showError(phone, 'phoneError');
+                isValid = false;
+            } else {
+                showSuccess(phone);
+            }
+            
+            
+            const email = document.getElementById('email');
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email.value)) {
+                showError(email, 'emailError');
+                isValid = false;
+            } else {
+                showSuccess(email);
+            }
+            
+            
+            const payment = document.getElementById('payment');
+            if (payment.value === '') {
+                showError(payment, 'paymentError');
+                isValid = false;
+            } else {
+                showSuccess(payment);
+            }
+            
+            
+            const pwd = document.getElementById('pwd');
+            if (pwd.value.length < 8) {
+                showError(pwd, 'pwdError');
+                isValid = false;
+            } else {
+                showSuccess(pwd);
+            }
+            
+            
+            if (isValid) {
+			//show if success
+                document.getElementById('donationFormElement').style.display = 'none';
+                document.getElementById('successMessage').classList.add('show');
+                
+             //reset form after 3 sec   
+                setTimeout(function() {
+                    document.getElementById('donationForm').classList.remove('show');
+                    document.getElementById('donationFormElement').reset();
+                    document.getElementById('donationFormElement').style.display = 'block';
+                    document.getElementById('successMessage').classList.remove('show');
+                    clearValidation();
+                }, 3000);
+            }
+        });
+        //show errrors
+        function showError(element, errorId) {
+            element.classList.add('is-invalid');
+            element.classList.remove('is-valid');
+            document.getElementById(errorId).classList.add('show');
+        }
+        //show success
+        function showSuccess(element) {
+            element.classList.add('is-valid');
+            element.classList.remove('is-invalid');
+        }
+        //clear validation
+        function clearValidation() {
+            const inputs = document.querySelectorAll('.form-control');
+            inputs.forEach(input => {
+                input.classList.remove('is-valid', 'is-invalid');
+            });
+            
+            const errors = document.querySelectorAll('.invalid-feedback');
+            errors.forEach(error => {
+                error.classList.remove('show');
+            });
+        }
+    </script>
+</body>
+</html>
