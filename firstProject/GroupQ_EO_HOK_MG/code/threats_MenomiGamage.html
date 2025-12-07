@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!--META TAGS -->
+		<title> Group Project - Threats Page</title>
+		<meta name="description" content="Threats towards the sustainability of life below water">
+		<meta name="keywords" content="sustainability, Life, Threats">
+		<meta name="author" content="Menomi Gamage">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--Connecting google fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+		
+		<!--connecting bootstrap-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">	
+						
+		<!--custom styling sheet (override bootstrap)-->
+		<link rel="stylesheet" href="style.css">
+	
+	</head>
+	<body class="mg-threatspg">
+		<!--Navigation bar-->
+		<nav class="navbar navbar-expand-lg group-navbar py-1">
+			<div class="container-fluid d-flex align-items-center">
+				<!-- The water droplogo -->
+				<a class="navbar-brand me-auto" href="index.html"> <!-- Linked to the home page -->
+				  <img src="websiteIcon.png" alt="logo" width="30" height="34">
+				</a>
+
+				<!-- Toggler -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Collapsible content -->
+				<div class="collapse navbar-collapse" id="navbarContent">
+		  
+				<!-- Search bar -->
+				<form class="d-flex ms-auto me-3" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn group-btn" type="submit">Search</button>
+				</form>
+
+				<!-- Links in nav bar -->
+				<ul class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about_HandeEdaOzdemir.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery_HtetOoKhin.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nasa_HtetOoKhin.html">NASA</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="threats_MenomiGamage.html">Threats</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="WhatWeCanDo_MenomiGamage.html">What we can do</a>
+					</li>
+				</ul>
+
+				</div>
+			</div>
+		</nav>
+		<br>
+			
+		<!-- using bootstrap for layout of body-->
+		<div class="container-fluid">
+		
+		<!-- SECTION ONE:THE CARDS WITH OVERVIEW -->
+			<section class="sectionI-threats-mg">
+			
+				<h1 class="stack-sans-notch-mg" id="changing-heading">Beneath the Surface, Above the Crisis</h1>
+				<h3 class="stack-sans-notch-mg">Are We Trading Tomorrow's Life for Today's Convenience?</h3>
+				
+				<!--SECTION I -->
+				<!-- only visible for smaller screen size-->
+				<div class="container">
+					<div class="mobile-mg">
+					<!--bootstrap rows-->
+						<div class="row">
+							<!-- source:https://www.bing.com/videos/riverview/relatedvideo?q=5+main+threats+for+life+below+water&&view=riverview&mmscn=mtsc&mid=E2DDBD3B4F9C652B0E33E2DDBD3B4F9C652B0E33&&aps=13&FORM=VMSOVR -->
+							<div class="col fishbox-mg">
+								<p>Overfishing
+								<br>About 34% of global fish stocks are overfished, leading to a collapse in fish populations and
+								disruption of the entire ecosystem.</p>
+							<!-- link the text to the bigger paragraphs -->
+								<a class="mobile-links-mg" href="#details1-mg">More details...</a>
+							</div>
+							<div class="col lossbox-mg">
+								<p>Habitat Loss
+								<br>An estimated 50% of coral reefs have been lost in the last 30 years, 
+								and up to 90% of the world’s reefs could be at risk by 2050 due to climate change, and pollution.</p>
+								<a class="mobile-links-mg" href="#details2-mg">More details...</a>
+							</div>
+							<div class="w-100"></div>
+							<div class="col inbox-mg">
+								<p>Invasive Species
+								<br>The economic cost of aquatic invasives is estimated at over $100 billion annually 
+								due to degraded fisheries, clogged waterways, and damaged infrastructure.</p>
+								<a class="mobile-links-mg" href="#details3-mg">More details...</a>
+							</div>
+							<div class="col pollution-mg">
+								<p>Pollution
+								<br>Every 60 seconds, the equivalent of one full garbage truck of plastic is dumped into the ocean.
+								This plastic “island” is so big that it contains 1.8 trillion pieces of plastic—that’s about 250 pieces of trash for every person on Earth.
+								</p>
+								<a class="mobile-links-mg" href="#details4-mg">More details...</a>
+							</div>
+							
+							<div class="w-100"></div>
+							<div class="col acid-mg">
+								<p>Acidification
+								<br>The ocean didn’t change this fast even during than mass extinction events. Today’s rate is 10–100 times faster.
+									Acidification slows coral growth, meaning reefs cannot rebuild fast enough. At current trends, reefs could stop growing entirely by 2050.
+								</p>
+								<a class="mobile-links-mg" href="#details5-mg">More details...</a>
+							</div>
+							
+							
+						</div>
+					</div>	
+					<!-- visible for desktops and bigger screens-->
+					<div class="desktop-mg">
+						<div class="row">
+							<!-- divides page into 3 equal parts of size 4-->
+							<div class="col-sm-4">
+								<div class="box-mg fishbox-mg">
+									<p>Overfishing<br>
+									About 34% of global fish stocks are overfished, leading to a collapse in fish populations and
+									disruption of the entire ecosystem and threatening human nutrition as well.</p>
+									<!-- link the card to the bigger paragraphs -->
+									<a class="links-mg" href="#details1-mg">More details...</a>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="box-mg lossbox-mg"> <!-- second class to add different background images to each card -->
+									<p>Habitat Loss<br>
+									An estimated 50% of coral reefs have been lost in the last 30 years, 
+									and up to 90% of the world’s reefs could be at risk by 2050 due to climate change, and pollution.
+									</p>
+									<a class="links-mg" href="#details2-mg">More details...</a>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="box-mg inbox-mg">
+									<p>Invasive Species<br>
+									The economic cost of aquatic invasives is estimated at over $100 billion annually due 
+									to degraded fisheries, clogged waterways, and damaged infrastructure.</p>
+									<a class="links-mg" href="#details3-mg">More details...</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+						<!-- divides page into 3 equal parts of size 6-->
+							<div class="col-sm-6">
+								<div class="box-mg pollution-mg">
+									<p>Pollution<br>
+									Every 60 seconds, the equivalent of one full garbage truck of plastic is dumped into the ocean.
+									This plastic “island” is so big that it contains 1.8 trillion pieces of plastic—that’s about 250 pieces of trash for every person on Earth.</p>
+									<a class="links-mg" href="#details4-mg">More details...</a>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="box-mg acid-mg">
+									<p>Acidification<br>
+									The ocean didn’t change this fast even during than mass extinction events. Today’s rate is 10–100 times faster.
+									Acidification slows coral growth, meaning reefs cannot rebuild fast enough. At current trends, reefs could stop growing entirely by 2050.</p>
+									<a class="links-mg" href="#details5-mg">More details...</a>
+								</div>
+							</div>
+						</div>	
+					</div>	
+				</div>	
+			
+			</section>
+		
+		<!-- SECTION II -->
+		<!-- a division for paragrahs-->
+			<section class="sectionII-mg">
+				<div class="paragraphs-mg">
+				
+					<!--adds horizontal line-->
+					<hr>
+					<h3 class="stack-sans-notch-mg-threats">OverFishing</h3>
+					<p id="details1-mg"> <!-- id to link cards in section one to each paragraph -->
+					<!-- Sources:https://iere.org/can-overfishing-harm-the-environment/?utm_source=chatgpt.com
+								https://www.msc.org/what-we-are-doing/oceans-at-risk/overfishing?utm_source=chatgpt.com -->
+								
+						Overfishing happens when humans catch fish faster than populations can replenish, so that too many adults are removed to sustain healthy reproduction and population levels.Roughly 35.5% of global marine fish stocks are now classified as overfished, meaning they are exploited at unsustainable levels.
+						This widespread depletion not only reduces the number of target fish such as cod, tuna, or other commercial species but also destabilises entire ecosystems. When key species disappear or decline, predator–prey relationships get thrown off balance, weakening the food web that supports marine biodiversity.
+						Making “life below water” more fragile and less able to adapt to the revovling world.
+					</p>
+					<hr>
+					<h3 class="stack-sans-notch-mg-threats">Habitat Loss</h3>
+					<p id="details2-mg">
+					<!-- sources:https://www.ooof.foundation/marine-habitat-destruction/?utm_source=chatgpt.com
+								https://www.nationalgeographic.com/environment/article/critical-issues-marine-habitat-destruction?utm_source=chatgpt.com -->
+								
+						Habitat loss in the ocean occurs when vital environments such as coral reefs, seagrass meadows, mangroves, salt marshes, and coastal wetlands are destroyed or degraded more often by human activities like coastal development, dredging, pollution, and destructive fishing practices.
+						Many species loose breeding grounds, protection, and feeding resources which trigger cascading losses up the food chain and dramatic reduction of species richness.
+						The result is a weaker, less resilient ocean ecosystem, risking biodiversity collapse and long-term sustainability of marine life and human livelihoods that depend on it.
+					</p>
+					<hr>
+					<h3 class="stack-sans-notch-mg-threats">Invasive Species</h3>
+					<p id="details3-mg">
+					<!-- sources: https://oceanservice.noaa.gov/facts/invasive.html?utm_source=chatgpt.com
+								https://www.marinebiodiversity.ca/marine-invaders-how-non-native-species-are-reshaping-our-ocean-ecosystems/?utm_source=chatgpt.com -->
+								
+						Invasive species are non-native animals, plants or other organisms that humans introduce often accidentally into ecosystems where they don’t naturally belong.
+						These species often spread rapidly because they face few natural predators or controls in their new environment competing aggressively with native species for resources and disrupting natural balances.
+						This cause to build a marine environment that is less resilient, less diverse, and less able to sustain the full range of “life below water”
+					</p>
+					<hr>
+					<h3 class="stack-sans-notch-mg-threats">Pollution</h3>
+					<p id="details4-mg">
+					<!-- sources:https://www.mcsuk.org/ocean-emergency/ocean-pollution/plastics/plastic-pollution-on-marine-life/?utm_source=chatgpt.com -->
+					
+					Contamination of seas by harmful waste such as plastics and trash, to toxic chemicals, oil spills, agricultural runoff, sewage, and excess nutrients is known as ocean pollution.
+					Many Marine animals from sea turtles and seabirds to whales, fish and coral suffer dire consequences by mistaing plastic for food, poison from tokic chemicals and entangling in large plastic waste leading to injusry and suffocation. 
+					Ocean pollution undermines the sustainability of marine life and ecosystems and ultimately, the people who depend on oceans for food, livelihoods, and ecosystem services.					</p>
+					<hr>
+					<h3 class="stack-sans-notch-mg-threats">Acidifcation</h3>
+					<p id="details5-mg">
+					<!-- sources:https://oceanacidification.noaa.gov/what-is-ocean-acidification/?utm_source=chatgpt.com
+								https://oceanexplorer.noaa.gov/ocean-fact/acidification/?utm_source=chatgpt.com -->
+								
+					Ocean acidification happens because oceans absorb a large share of the extra Carbon dioxide (CO₂) that humans release into the atmosphere. Which causes a chemical shift reducing carbonate ions, 
+					a crucial ingredient marine creatures use to build shells and skeletons made of calcium carbonate. As a result, “calcifying” organisms like oysters, clams, mussels, sea urchins, many shellfish, plankton, and especially corals struggle to form strong shells or skeletons.
+					Acidification can also influence reproduction, growth, metabolism, and even how fish detect predators or find habitat, threatening the stability of food chain.
+					Harming entire marine ecosystems and altering ocean chemistry in ways that make the seas far less hospitable for many marine organisms.
+					</p>
+					<hr>
+				</div>
+			</section>
+		</div>
+		<!-- division for the footer-->	
+		<div class="footer">
+		<!-- logo image-->
+			<img class="logo" src="websiteIcon.png" alt="logo">
+		 <!-- list of links to important resources-->
+			 <ul>
+				<li> <a href="https://www.unep.org/topics/sustainable-development-goals/why-do-sustainable-development-goals-matter/goal-14" target="_blank">UN Environment Programme</a></li>
+				<li> <a href="https://globalgoals.org/goals/14-life-below-water/" target="_blank">The Global Goals</a></li>
+				<li> <a href="https://www.youtube.com/watch?v=rzSBtx_bZc4" target="_blank" >UN Sustainable Development Goals - DEEP DIVE</a></li>
+				<li> <a href="https://www.sciencefocus.com/future-technology/can-humans-live-under-the-sea-experiment-deep" target="_blank" >Can humans live under the sea?</a></li>
+			</ul>
+		</div>
+	
+	<!--Javascript file extension link -->
+	<script src="jsForWebsite.js"></script>
+	
+	<!-- bootstrap JS link-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	
+	</body>
+	
+
+</html>

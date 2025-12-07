@@ -1,0 +1,1153 @@
+/*NAVIGATION BAR*/
+/* The box, background-color for navbar*/
+.navbar {
+	background-color:#247D7F;
+}
+.group-navbar .nav-link {
+     color:white; 
+}
+.group-btn{
+	color:white;
+}
+/*-----------------------------*/
+/*HOME PAGE:*/
+/*-- Hande Eda Ozdemir --*/
+/*-----------------------------*/
+
+/*BACKGROUND_*/
+body.edaPages{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("background1.jpg");/*rgba's makes background to look darker*/
+	background-repeat: no-repeat;/*so that the background doesnt repeat itself as an img*/
+	background-size: cover;/*covers the whole page*/
+	background-attachment: fixed;/*when you scroll down background stays at the same position*/
+}
+
+/*HEADING_*/
+
+.homePageH{
+	color:#247D7F;
+	margin: 80px 30px 30px 30px;/*top right bottom left*/
+	font-size: 70px;
+	text-align: center;/*text gets displayed in center*/
+	
+	/*FONT*/
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 70px;
+	font-style: normal;
+}
+
+span{
+	color:#247D7F;
+	display: block;/*just gets the element not the whole row*/
+}
+
+/*EXPLORE BUTTON_*/
+
+#exploreButton{
+	margin: 40px auto 30px auto;/*makes right and left margin auto which helps it to center the content.*/
+	text-align: center;
+	display: block;
+	text-decoration:none;/*line under the link disapears*/
+	color:white;
+	background-color:black;
+	border-radius: 5px;
+	border:1px solid black;
+	padding: 14px 25px;
+	width: fit-content;/*fits the content in a box. ex, border would be just around the element, not whole row*/
+	
+	/*FONT*/
+	font-family: "Barlow", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+
+}
+
+#exploreButton:hover{/*when you hover on the link with the mouse, it uses the css below.*/
+	background-color:#80B9C8;
+
+}
+/*ABOUT PAGE:*/
+
+/*group of images 1_*/
+
+.content-card {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+.aboutImgP { 
+	margin:0;
+	color:white;
+	
+	/*FONTS*/
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/*-----------------------------*/
+
+/*group of content 1_*/
+
+
+/* Headings */
+.aboutPageH1,
+.aboutPageH2{
+	color:#247D7F;
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+/* Paragraphs/Lists */
+.aboutPageP,
+.aboutPageP2{
+	color:white;
+	text-align:left;
+	
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/* Image captions */
+.aboutImgP,
+.aboutImgP2 { 
+	margin:0;
+	color:white;
+	
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/* Hover effects - OPTIONAL */
+.hovering,
+.hovering2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+}
+
+.hovering p,
+.hovering2 p {
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+/* Parent container needs position relative */
+.img-container {
+	position: relative;
+}
+
+.img-container:hover .hovering,.img-container:hover .hovering2 {
+	opacity: 1;
+}
+
+/* Author name */
+#authorName {
+	color: #247D7F;
+	text-align: center;
+	margin-top: 50px;
+	font-family: "Stack Sans Notch", sans-serif;
+}
+/*-----------------------------*/
+/*--MENOMI--*/
+/* Threats and what we can do pages*/
+
+/* -- BODY FOR WHAT WE CAN DO PAGE --*/
+body.mg_pages {
+	background-color:white;
+	/*google font common to all text*/
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+/* -- BODY FOR THREATS PAGE --*/
+body.mg-threatspg {
+	background-color:#03002e;
+	/*google font common to all text*/
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+/*HEADINGS*/
+/*class for headings to use google fonts*/
+.stack-sans-notch-mg{
+  font-family: "Stack Sans Notch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:semi-bold;
+  font-style: normal;
+  text-align:center;
+  color:white;
+}
+
+/*THREATS PAGE*/
+
+/*CARDS IN SECTION I*/
+/*add border around the paragraphs*/
+.box-mg{
+	border:2px solid black;
+	text-align:center;
+	padding:5px;
+	margin-top:20px;
+	margin-bottom:15px;
+	background-repeat:no-repeat; /* -- Prevent repetition of image -- */
+	background-size:cover; /* -- Covers the whole area -- */
+	color:white;
+
+}
+.box-mg:hover{
+	box-shadow:4px 4px #C29470; /* box shadow around card when hovering over */ /* right, bottom and color */
+	border-radius:3px;
+
+}
+
+/* -- source:https://www.geeksforgeeks.org/html/how-to-set-background-image-in-html/ -- */
+
+/* -- MOST IMAGES ARE RESIZED -- */
+/*-- source:https://unsplash.com/s/photos/fishing-boat -- */
+.fishbox-mg{
+	background-image:url('img-mg/overfishing_mg.jpg');	
+}
+/* -- source:https://www.pexels.com/photo/underwater-photography-of-coral-reef-in-water-3635910/ --*/
+.lossbox-mg{
+	background-image:url('img-mg/habitat_mg.jpg');
+	
+}
+/* -- source:https://www.freepik.com/search?format=search&last_filter=query&last_value=invasive+marine+species&query=invasive+marine+species --*/
+.inbox-mg{
+	background-image:url('img-mg/ins_mg.jpg'); /* -- adds backgound image to each div box -- */	
+}
+/* -- source:https://www.freepik.com/free-photos-vectors/marine-habitat-destruction/2#uuid=f5d0a019-b763-4242-986a-2f4140703f23 --*/
+.pollution-mg{
+	background-image:url('img-mg/pollution_mg.jpg');	
+}
+/* -- source:https://www.freepik.com/free-photos-vectors/texture-water -- */
+.acid-mg{
+	background-image:url('img-mg/acid_mg.jpg');
+}
+
+/*text linking cards to paragraphs */
+.links-mg{
+	text-decoration:none; /* remove default underline */
+	color:white;
+	border:2px solid #C29470;
+	padding:4px;
+}
+
+/*PARAGRAPHS IN SECTION II */
+.stack-sans-notch-mg-threats{ 
+	text-align:left; /*align the headings left */
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	color:black; /* change colour to black */
+}
+.sectionII-mg{
+	background-color:white; /* -- set backgrund as white in second half */
+}
+.paragraphs-mg{
+	margin:20px; /* -- Adds space between paragraph and div */
+	text-align:justify;
+}
+.mobile-mg{
+	display:none; /* Hides mobile version */
+}
+
+/*--- WHAT WE CAN DO page ---*/
+/* add different background for headings part */
+
+/* -- source:https://www.w3schools.com/howto/howto_css_style_header.asp -- */
+
+header.headings-mg{
+	background-image:url('img-mg/sea_MG.jpg');
+	background-size:cover; /* -- cover the entire area -- */
+	background-position:center;
+	height:50vh; /* -- sets the element’s height to 50% of the viewport height. -- */
+	display:flex; /* -- turn element into a flex container -- */
+	justify-content:center; /* -- centers horizontally along the main axis -- */
+	align-items:center; /* -- Centers vertically along the cross axis -- */
+	color:white:
+}
+
+.header-content{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* -- FIRST SECTION OF PAGE -- */
+
+/*side menu in the right side of page*/
+.menu-mg{
+	border:2px solid #C29470;
+	margin:10px;	
+	padding:8px;
+	text-align:center;
+	float:right;
+}
+
+/* -- source: https://www.youtube.com/watch?v=uy1tgKOnPB0 -- */
+/* target the list items */
+.menu-mg li{
+	list-style-type:none; /* remove default bullet points from list */
+	margin:10px;
+	padding:15px;
+		
+}
+.menu-mg ul li a{
+	text-decoration:none; /* remove default underline */
+	color:black;
+}
+.menu-mg a:hover{
+	border:0.5px solid #C29470;
+	border-radius:5px;
+	padding:8px;
+	margin:4px;
+	box-shadow:3px 3px  #C29470;
+}
+/*-- images that align left --*/
+.campaign1-mg{
+	float:left;
+	padding:10px;
+	margin-left:20px;
+}
+/*-- linked image in first campaign --*/
+.campaign1-center-mg{
+	display:block;
+	margin:auto;
+}
+/* -- source:https://www.w3docs.com/snippets/css/how-to-zoom-images-and-background-images-on-hover.html -- */
+.campaign1-center-mg:hover{
+	transform:scale(1.1);
+	box-shadow:3px 3px #03002e;
+}
+/* -- images that align right --*/
+.campaign2-mg{
+	float:right;
+	padding:10px;
+}
+/* -- project images in second campaign -- */
+.campaign2-center-mg{
+	margin:10px;
+}
+.campaign2-center-mg:hover{
+	transform:scale(1.1);
+	box-shadow:3px 3px #03002e;
+}
+
+/* -- Information paragraphs -- */
+.campaignp-mg{
+	text-align:justify;
+	margin:10px;
+}
+
+/*-- SECOND PART OF PAGE -- */
+
+/*-- source:https://www.freepik.com/free-ai-image/underwater-coral-reef-scene-with-sunlight_419671392.htm#fromView=search&page=1&position=19&uuid=aa3519d3-24f1-41bd-a8bd-4d7958b1a80c&query=coral+reef -- */
+.sectionII-what-mg{
+	background-image:url('img-mg/coral_bg_MG.jpg');
+}
+/* -- target headings on second section -- */
+.stack-sans-notch-sw-mg{
+	font-family: "Stack Sans Notch", sans-serif;
+	font-optical-sizing: auto;
+	font-weight:semi-bold;
+	font-style: normal;
+	text-align:center;
+	color:black;
+}
+
+/* -- Styling for form -- */
+.input-mg{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+/* -- the description of check button -- */
+.mg-pages .custom-control-label{
+		color:white;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* -- text shadow for extra visibility -- */
+}
+.submit-mg{
+	display:flex;
+	justify-content:center;
+	margin-bottom:20px;
+	
+}
+
+/* the background colour of the button */
+.form-btn-mg{
+	background-color:#03002e;
+	margin-bottom:5px;
+}
+
+/* -- Target any element that has the class invalid -- */
+/* Red border when invalid */
+input.invalid, select.invalid{
+    border:2px solid red; 
+}
+
+/* -- Target any element that has the class valid -- */
+/* Green border when valid */
+input.valid, select.valid{
+    border:2px solid green;
+}
+
+/* -- Target any element that has the class error-message -- */
+/* Red error message text */
+.error-message{
+    color:red;
+    font-size:0.9em;
+}
+/* -- END -- */
+
+/*--Htet Oo Khin Pages--*/
+
+/*--Htet Oo Khin Pages START Here--*/
+
+/*HTET OO KHIN Gallery page*/
+
+ .hokPages {
+            font-family: 'Roboto Flex', sans-serif; /*custom font*/
+            background-color: #80B9C8;
+        }
+			
+		* {
+            box-sizing: border-box; /*universal box-sizing reset for element sizing*/
+        }
+       
+      	/*header section with background image*/
+		 .hokHeadSection {
+            
+            text-align: center;
+            padding: 80px 20px;
+            background: url('hokImages/bgHOK.jpg');
+            color: white;
+            margin-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+			font-family: "Stack Sans Notch", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: <weight>;
+			font-style: normal;
+		}
+		
+		        		
+        .hokHeadSection h1 {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1; /*bring text above bg*/
+		}
+        
+        .hokHeadSection p {
+            font-size: 1.4rem;
+            font-family: 'Roboto Flex', sans-serif;
+            position: relative;
+            z-index: 1;
+            opacity: 0.95; /*slight transparency*/
+        }
+        
+        .hokMotto {
+            text-align: center;
+			font-size: 1.2rem;
+            color: #555;
+			max-width: 800px; 
+            margin: 0 auto 20px; /*center with bottom  margin*/
+            padding: 0 10px; /*horizontal padding*/
+            line-height: 1; /*tight line spacing*/
+            font-style: italic;
+        }
+		
+        /*gallery image section*/
+        .hokGallery {
+            padding: 20px 0 60px; /*vertical padding*/
+        }
+        
+        .hokGallery .col-6,
+        .hokGallery .col-lg-3 {
+            padding: 15px; /*space between gallery items*/
+        }
+        
+        .hokGalleryItem {
+            position: relative;
+            overflow: hidden; /*hide the extra part*/
+            border-radius: 15px; /*curve shape box*/
+			box-shadow: 0 8px 25px rgba(0,0,0,0.15); /*8px shadow down, 25px blur*/
+			transition: all 0.4s ease; /*look smooth*/
+            background-color: #247D7F;
+            height: 100%; /*fill 100% in the container*/
+        }
+        
+		/*gallery items hover effect*/
+        .hokGalleryItem:hover {
+            transform: translateY(-10px); /*move upward*/
+            box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+			transform: scale(1.1); /*110times bigger*/
+        }
+        
+        .hokGalleryImg {
+            width: 100%; /* not to stick out/ fill inside*/
+            height: 280px; /*fix all the image height*/
+            object-fit: cover; /*fit inside*/
+            display: block; /*horizontally display*/
+        }
+        
+				
+        /*image caption color//below images*/
+        .text-container {
+            padding: 20px;
+            background: white;
+        }
+        
+        .text-container h3 {
+            font-size: 1.3rem;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+			text-align: center;
+        }
+        
+        .hokCaptionText {
+            color: #247D7F;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0;
+			text-align: center;
+        }
+		
+		
+		 /*form box display section// default hidden*/
+       
+		
+        .hokForm {
+            display: none; /*default hidden*/
+            margin: 50px auto; /*centered with vertical spacing*/
+            padding: 40px; /*internal spcaing*/
+            background: #247D7F;
+            border-radius: 20px; /*rounded corners*/
+            max-width: 800px;  /*not too big in big screen*/
+			box-shadow: 0 10px 40px rgba(0,0,0,0.1); 
+        }
+		
+		
+		
+        /*form appear*/
+		
+        .hokForm.show {
+            display: block; /*make form visible*/
+            animation: slideIn 0.4s ease-out; /*when it comes, it looks smooth*/
+        }
+		
+		
+		
+        /*donation form*/
+		
+        .hokInvalidFeedback {
+            display: none;
+            color: #dc3545;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+        
+		/*show validation feedback when needed*/
+        .hokInvalidFeedback.show {
+            display: block; /*make feedback visible*/
+        }
+        
+        .form-control.is-invalid {
+            border-color: #dc3545; /*red for invalid*/
+            box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+        }
+        
+        .form-control.is-valid {
+            border-color: #198754; /*green for valid*/
+            box-shadow: 0 0 0 0.2rem rgba(25,135,84,.25);
+        }
+        
+		/*form input styling*/
+        .form-control,
+        select.form-control {
+            border-radius: 8px;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        
+		
+        .form-control:focus,
+        select.form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102,126,234,.25);
+        }
+        
+		/*form styling*/
+        label {
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .hokPersonalInfo {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            font-weight: 600;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+		/*donation button styling*/
+        #hokDonationBtn {
+            display: block;
+            margin: 50px auto;
+            padding: 18px 50px;
+            font-size: 1.3rem;
+            background-color: #247D7F;
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 8px 20px rgba(102,126,234,0.4);
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        #hokDonationBtn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(102,126,234,0.5);
+        }
+        
+        .submit-hok{
+            background: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .submit-hok:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102,126,234,0.4);
+        }
+        
+        .btn-secondary {
+            border-radius: 8px;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
+        
+		/*form success styling*/
+        .hokSuccessMessage {
+            display: none;
+            padding: 30px;
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+            border: none;
+            border-radius: 15px;
+            color: #155724;
+            margin-top: 30px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .hokSuccessMessage.show {
+            display: block;
+            animation: slideIn 0.4s ease-out;
+        }
+        
+        .hokSuccessMessage h5 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+		@media (max-width: 768px) {
+            /*.title-section */
+			.hokHeadSection h1 {
+                font-size: 2.5rem; /*smaller font size on mobile*/
+            }
+            
+            .gallery-img {
+                height: 200px;
+            }
+            
+            .text-container {
+                padding: 15px;
+            }
+        }
+		
+		
+		
+/*HTET OO KHIN nasa page*/
+        .bg-img1 {
+            font-family: "Stack Sans Notch", sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 80px 20px !important;
+            position: relative;
+            overflow: hidden;
+        }
+        
+               
+        .bg-img1 h1 {
+            font-size: 3.5rem;
+            color: white;
+            position: relative;
+            z-index: 1;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            margin-bottom: 15px;
+            animation: fadeInDown 1s ease-out;
+        }
+        
+        .bg-img1 h2 {
+            font-size: 1.8rem;
+            color: rgba(255,255,255,0.95);
+            font-family: 'Roboto Flex', sans-serif;
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 1s ease-out 0.3s backwards;
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0; /*invisible*/
+                transform: translateY(-30px); /*30px below*/
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0); /*end at normal position*/
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1; /*end visible*/
+                transform: translateY(0); /*stop at normal*/
+            } 
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px); /*50px left*/
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1; /*end visible*/
+                transform: translateX(0); /*stop at normal*/
+            }
+        }
+        
+            
+        .content-section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            opacity: 0;
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        
+        .content-section:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        
+        .content-section:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        
+        .content-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.12);
+        }
+		
+		/*images styling*/
+        
+        .nasa-image {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transition: transform 0.4s ease;
+        }
+        
+        .nasa-image:hover {
+            transform: scale(1.05) rotate(1deg);
+        }
+        
+        .nasaHeading1, .nasaHeading2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e3c72;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .nasaHeading1::after, .nasaHeading2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 4px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 2px;
+            animation: expandLine 1s ease-out 0.5s forwards;
+        }
+        
+        @keyframes expandLine {
+            to {
+                width: 80px;
+            }
+        }
+        
+        .hokTextPreview {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        
+        .hokTextFull {
+            display: none;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+            margin-top: 15px;
+        }
+        
+        .hokTextFull.show {
+            display: block;
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /*read more buton styling*/
+        .read-more-btn {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(30, 60, 114, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .read-more-btn::before {
+            content: ''; /*empty content for pseudo element*/
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            transform: translate(-50%, -50%); /*center the ripple*/
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .read-more-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .read-more-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(30, 60, 114, 0.4);
+        }
+        
+        .read-more-btn span {
+            position: relative;
+            z-index: 1;
+        }
+		
+		/* Scroll reveal animation */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        
+        .scroll-reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        @media (max-width: 768px) {
+            .bg-img1 h1 {
+                font-size: 2.5rem;
+            }
+            
+            .bg-img1 h2 {
+                font-size: 1.4rem;
+            }
+            
+            .content-section {
+                padding: 25px;
+            }
+            
+            .nasaHeading1, .nasaHeading2 {
+                font-size: 1.5rem;
+            }
+        }
+    
+	/* --Htet OO Khin Pages END here -- */
+
+/*FOOTER*/
+.footer{
+	background-color:#247D7F;
+	display: flex;
+	justify-content: center; /* centers the links horizontally */
+	align-items: center;
+	text-align:center;
+	border: 2px solid white;
+	bottom:0;
+}
+.footer li{
+	float:left;
+	list-style-type:none;
+	
+}
+
+.footer ul li a {
+	display:block;
+	color:white;
+	padding:10px 14px;
+	text-decoration:none;
+	
+}
+.logo{
+	width:3%;
+	float:left;
+	margin-right:20px;
+}
+/*-----------------------------*/
+/*MEDIA TAGS FOR WEBSITES*/
+/*for phones*/
+@media only screen and (max-width:600px){
+	/*NAVBAR_*/
+	
+	nav input[type=text]{ /* -- makes search bar smaller --*/
+		width: 180px;
+		padding: 4px;
+	}
+	
+	/* Heading mobile */
+	.homePageH {
+		font-size: 50px;
+		margin: 50px 20px 20px 20px;
+	}
+	
+	span{
+		font-size:30px;
+	}
+	
+	/* About page font sizes */
+	.aboutPageH1,
+	.aboutPageH2 {
+		font-size: 20px;
+	}
+
+	.aboutPageP,
+	.aboutPageP2 {
+		font-size: 12px;
+	}
+	
+	/* Explore button mobile */
+	#exploreButton {
+		padding: 12px 20px;
+		font-size: 14px;
+	}
+	
+	/* Hover effects on mobile */
+	.hovering,
+	.hovering2 {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+	
+	/* -- MENOMI -- */
+	
+	/* --- THREATS PAGE --- */
+	/*add space on top when screen size is ajusted*/
+	.col-sm-6{
+		margin-top:15px;
+	}
+	/*Adjusting screen layout for mobile display*/
+	.mobile-mg{
+		display:block;
+		color:white;
+	}
+	.mobile-mg .col{
+		background-repeat:no-repeat; /* -- Prevent repetition of image -- */
+		background-size:cover;
+	}
+	.desktop-mg{
+		display:none;
+	}
+	
+	/*fixing text size inside linked card*/
+	.mobile-links-mg{
+		font-size:10px;
+		text-decoration:none;
+		color:white;
+	}
+	/* --- WHAT WE CAN DO PAGE --- */
+	
+	/* Adjusting styling for side menu in mobile version */
+	.menu-mg{
+		margin:3px;
+		padding:3px;
+	}	
+	.menu-mg li{
+		border:2px solid #44916F;
+		border-radius:8px;
+		padding:8px;
+		float:left;
+	}
+	/* -- Overriding hover effects --*/
+	.menu-mg a:hover{
+	border:0;
+	border-radius:0;
+	padding:0;
+	margin:0;
+	box-shadow:none;
+	}
+	/* custom css for image sizes in mobile version */
+	.campaignp-mg{
+		float:right;
+	}
+	.campaign1-mg{
+		width:90%;
+	}
+	.campaign2-mg{
+		width:90%;
+	}
+	.campaign2-center-mg{
+		width:40%;
+	}
+	
+	/* changing colour and adding text shadow of form headings for better visibility */
+	header.form-headings h2,header.form-headings h3  {
+		color:white;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+		
+	}
+	/*columns for form*/
+	.col{
+		border:2px solid black;
+		margin:10px;
+		padding:8px;
+		background-color:white;
+		text-align:center;
+	}
+
+	/* -- END -- */
+}
